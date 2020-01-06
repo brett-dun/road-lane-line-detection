@@ -11,9 +11,10 @@ For now, opencv is the only dependency needed to build and run this code.
 ./executable [options]
 
 Options:
-  -v VIDEO_FILE
-  -i IMAGE_FILE
-  -o OUTPUT_FILE
+  -h 				Show this help message and exit.
+  -i INPUT_FILE		Input video/image file.
+  -o OUTPUT_FILE	Output video/image file.
+  -I 				Annotate image (defaults to annotating video)
 ```
 
 ## How it Works
